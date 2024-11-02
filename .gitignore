@@ -1,0 +1,70 @@
+/public/hot
+/public/storage
+/storage/*.key
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+
+# Laravel specific
+/vendor/
+# Node modules
+/node_modules/
+# Log files
+/storage/*.log
+/storage/logs/*
+# Laravel 9 storage
+/storage/app/public
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+# Cache
+/bootstrap/cache/
+
+# Environment files
+.env
+.env.*.backup
+.env.local.php
+
+# Ignore database backups and secrets
+/database/*.sqlite
+/database/*.sql
+/database/seeds/*.sqlite
+/database/seeds/*.sql
+
+# Laravel Horizon and Telescope
+/horizon.log
+/telescope/*.sqlite
+
+# IDE and editor specific
+/.idea
+/.vscode
+
+# Composer and npm logs
+composer.lock
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Ignored files for package development
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/mix-manifest.json
+/nova-components
+
+# Asset builds
+/public/js/*.js.map
+/public/css/*.css.map
+/public/scss
+/public/images
+
+# Misc
+.phpunit.result.cache
+.phpunit.cache
+.DS_Store
+Thumbs.db
+*.swp
+*~
