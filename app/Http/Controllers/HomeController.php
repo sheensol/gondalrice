@@ -74,7 +74,7 @@ class HomeController extends Controller
             'message' => $request->message,
         ];
 
-        Mail::to('sales@gmail.com')->send(new CustomSendMail($contact_detail));
+        Mail::to('sheensoltech@gmail.com')->send(new CustomSendMail($contact_detail));
 
         \Session::flash('success', 'Your email has been sent successfully!');
         return redirect()->intended('/contact-us');
